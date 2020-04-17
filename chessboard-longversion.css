@@ -1,0 +1,504 @@
+.chessboard {
+    display: flex;
+    /* flex-wrap: 1px;; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    /* border: 15px solid grey;
+        padding: 20px;
+        margin: 20px; */
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.six {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seven {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.eight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.bchessboard{
+    display: flex;
+    flex-wrap: 1px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.bone{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.btwo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.bthree{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.bfour {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.bfive{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.bsix {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.bseven{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.beight {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.cchessboard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.cone {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.ctwo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cthree {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.cfour {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cfive {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.csix {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cseven {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.ceight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dchessboard{
+    display: flex;
+    flex-wrap: 1px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.done{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.dtwo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.dthree{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.dfour {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.dfive{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dsix {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.dseven{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.deight {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.echessboard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.eone {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.etwo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.ethree {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.efour {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.efive {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.esix {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.eseven {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.eeight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fchessboard{
+    display: flex;
+    flex-wrap: 1px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.fone{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.ftwo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.fthree{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.ffour {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.ffive{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fsix {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.fseven{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.feight {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.gchessboard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.gone {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.gtwo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.gthree {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.gfour {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.gfive {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.gsix {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.gseven {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.geight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.hchessboard{
+    display: flex;
+    flex-wrap: 1px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.hone{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.htwo {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.hthree{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.hfour {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.hfive{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.hsix {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.hseven{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+.height {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+}
